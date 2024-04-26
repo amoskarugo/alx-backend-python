@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-
+module containing a function that performs complex
+type annotations
 """
-import math
 from typing import Union, Tuple, Any
 
 
