@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-
+module that implements a function that has a return type of any or none
 """
 
 from typing import Any, Sequence, Union
