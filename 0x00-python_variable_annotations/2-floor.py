@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-import math
+
 
 """
 module containing a function to floor a floating point number passed to it.
 """
+import math
 
 
 def floor(n: float) -> int:
