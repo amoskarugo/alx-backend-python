@@ -2,8 +2,8 @@
 """
 module containing a function to perform add operation on an iterable.
 """
-
-lst = list[float]
+from typing import List
+lst: List[float]
 
 
 def sum_list(my_list: lst) -> float:
