@@ -5,7 +5,7 @@ import asyncio
 from typing import Generator
 
 
-async def async_generator() -> Generator[float]:
+async def async_generator() -> Generator[float, None, int]:
     """function to yield random numbers"""
     for _ in range(10):
         yield random.random() * 10
