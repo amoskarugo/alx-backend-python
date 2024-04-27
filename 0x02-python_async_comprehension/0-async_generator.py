@@ -4,7 +4,7 @@ import random
 import asyncio
 
 
-async def async_generator():
+async def async_generator() -> float:
     """function to yield random numbers"""
     for _ in range(10):
         yield random.random() * 10
