@@ -14,7 +14,7 @@ async def wait_random(max_delay: int = 10) -> float:
     :param max_delay: number of seconds to sleep
     :return: random number generated
     """
-    random_num = random.uniform(0, max_delay + 1)
+    random_num = random.random() * max_delay
     await asyncio.sleep(random_num)
 
     return random_num
